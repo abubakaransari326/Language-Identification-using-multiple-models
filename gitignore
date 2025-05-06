@@ -1,0 +1,52 @@
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Conda / virtual environments
+.env/
+.venv/
+env/
+venv/
+*.env
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# Data files (WiLI dataset, not for upload)
+WiLI/
+*.zip
+*.tar.gz
+
+# Results (if large/generated)
+results/*.png
+results/*.log
+
+# Model checkpoints / Hugging Face cache
+*.ckpt
+*.pt
+*.bin
+*.h5
+*.model
+*.onnx
+*.pkl
+*.joblib
+
+# Hugging Face Transformers cache
+~/.cache/huggingface
+~/.huggingface
+
+# Jupyter output logs
+*.out
+*.log
+
