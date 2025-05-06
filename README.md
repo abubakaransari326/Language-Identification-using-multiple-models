@@ -80,11 +80,11 @@ This project was developed as part of **CS 584: Natural Language Processing** at
 ```bash
 git clone https://github.com/abubakaransari326/Language-Identification-using-multiple-models.git
 cd Language-Identification-using-multiple-models
-
+```
 2. Install Dependencies:
 ```bash
 pip install -r requirements.txt
-
+```
 3. Run any notebook inside notebooks/
 ⚠️ Note: Dataset files are not included in this repo. Place x_train.txt, y_train.txt, x_test.txt, and y_test.txt in the WiLI/ folder.
 
