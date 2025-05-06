@@ -1,8 +1,8 @@
 # Ignore model/tokenized output folders
 bert_tokenized_data/
 roberta_tokenized_data/
-bert_wili_final/
-roberta_wili_final/
+bert-wili-final/
+roberta-wili-final/
 
 # Ignore dataset folder
 WiLI/
