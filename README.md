@@ -28,31 +28,20 @@ This project was developed as part of **CS 584: Natural Language Processing** at
 
 ---
 
-## ⚙️ Project Structure
+## 📁 Project Structure
 
-Language-Identification-using-multiple-models/
-│
-├── notebooks/ # Jupyter notebooks for each model
-│ ├── RoBERTa.ipynb
-│ ├── BERT.ipynb
-│ ├── SVM.ipynb
-│ ├── Naive bayes.ipynb
-│ └── ChatGPT.ipynb
-│
-├── results/ # Confusion matrices, result plots
-│ ├── *.txt
-│ └── *.png
-│
-├── WiLI/ # Dataset files (not tracked in Git)
-│ ├── x_train.txt
-│ ├── y_train.txt
-│ ├── x_test.txt
-│ ├── y_test.txt
-│ └── labels.csv
-│
-├── requirements.txt # Python dependencies
-├── LICENSE # MIT License
-└── README.md # You are here!
+- `notebooks/` – Jupyter notebooks for each model
+  - `RoBERTa.ipynb`
+  - `BERT.ipynb`
+  - `SVM.ipynb`
+  - `Naive Bayes.ipynb`
+  - `ChatGPT.ipynb`
+- `results/` – Confusion matrices and result plots
+- `WiLI/` – Input text and label files *(not tracked in Git)*
+  - `x_train.txt`, `y_train.txt`, etc.
+- `requirements.txt` – Python dependencies
+- `LICENSE` – MIT License
+- `README.md` – This file
 
 
 
@@ -93,6 +82,7 @@ git clone https://github.com/abubakaransari326/Language-Identification-using-mul
 cd Language-Identification-using-multiple-models
 
 2. Install Dependencies:
+```bash
 pip install -r requirements.txt
 
 3. Run any notebook inside notebooks/
