@@ -1,0 +1,8 @@
+transformers==4.51.3
+datasets==2.18.0
+evaluate
+scikit-learn
+matplotlib
+numpy
+openai
+ipywidgets
